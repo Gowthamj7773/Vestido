@@ -1,15 +1,6 @@
-import { Text, View } from "react-native";
+// app/index.tsx
+import { Redirect } from 'expo-router';
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text className="text-3xl text-green-500">Hello world</Text>
-    </View>
-  );
+  return <Redirect href="/auth/auth" />;
 }
