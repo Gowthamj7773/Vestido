@@ -67,7 +67,7 @@ export default function Feedback({visible, onClose,user_id,prod_id,feedback}) {
         <View className="flex-1 bg-black/50 justify-center items-center">
         <View className={`${theme==='dark'?'bg-gray-700':'bg-white'} rounded-xl w-11/12 p-5`}>
             <Text className={`text-xl font-semibold mb-2 ${theme==='dark'&&'text-white'}`}>Review Order</Text>
-            <Text className={`${theme==='dark'?'text-white':'bg-gray-400'} mb-4`}>How was it? Give feedback.</Text>
+            <Text className={`${theme==='dark'?'text-white':'text-gray-400'} mb-4`}>How was it? Give feedback.</Text>
 
             <View className="flex-row mb-4">
             {[1, 2, 3, 4, 5].map((star) => (

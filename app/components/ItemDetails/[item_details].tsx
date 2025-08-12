@@ -186,7 +186,7 @@ return (
         <Pressable onPress={()=>router.replace('/(tabs)/home')}>
             <View className={`w-full py-7 px-5 flex flex-row ${theme==='dark'?'bg-gray-900':'bg-white'} items-center`}>
                 <AntDesign name='arrowleft' size={20} color={`${theme==='dark'?'white':'black'}`}/>
-                <Text className={`mx-2 text-xl ${theme==='dark'&&'text-white'}`}>Gverse</Text>
+                <Text className={`mx-2 text-xl ${theme==='dark'&&'text-white'}`}>Vestido</Text>
             </View>
         </Pressable>
         <ScrollView className='w-full h-[600px]' showsVerticalScrollIndicator={false}>

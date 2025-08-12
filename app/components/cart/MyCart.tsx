@@ -169,7 +169,7 @@ return (
             </View>
             <Pressable className='mt-5 flex items-end'>
                 <Text
-                className={`text-lg ${theme==='dark'?'text-white':'bg-gray-500'} font-medium`}
+                className={`text-lg ${theme==='dark'?'text-white':'text-gray-500'} font-medium`}
                 onPress={() => {
                     cart.length !== 0 && Alert.alert("My Cart","do you want to remove all",[{text:"cancel"}, {text:'ok',onPress:DeleteAll}]);
                 }}
